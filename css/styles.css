@@ -1,0 +1,80 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+nav {
+    background-color: orangered;
+    display: flex; 
+    display: -webkit-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: .2em .1em .3em .4em;
+    font-family: "arial", "Helvetica", "sans-serif"; 
+}
+
+nav a {
+    margin: .2em 1em 0px 1em;
+    color: teal;
+}
+nav a:hover {
+   color: white;
+}
+
+wrapper {
+    background-color: pink;
+}
+
+footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+h1, h2, h3 {
+    color:yellow;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.img-hero {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    background-color: rgb(90, 54, 7);
+}
+
+main {
+    flex: 2;
+    margin: 1em;
+}
+
+aside {
+    flex: 1;
+    margin: 1em
+}
+
+footer a {
+    color: goldenrod;
+}
+
+a {
+    color: rgb(227, 208, 245)
+}
